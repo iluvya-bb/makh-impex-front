@@ -79,7 +79,7 @@ function App() {
     formData.append('ebarimt_picture', selectedFile);
 
     try {
-      const response = await fetch('http://www.mglrndm.online/lotteries/', {
+      const response = await fetch('https://mglrndm.online/lotteries/', {
         method: 'POST',
         body: formData,
       });
